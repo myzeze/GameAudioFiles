@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{82b7269f-5303-4f4f-aeb0-71eda3830704}">
+		<property name="name">
+			<value>Terrian</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e63dd435-3b17-4f23-ac63-d5177fa922cb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e7070767-7519-4833-9b01-802a6fe4d0ab}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e7070767-7519-4833-9b01-802a6fe4d0ab}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

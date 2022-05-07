@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Metal
+  - InsideMetal
+  - OutsideMetal
+  - Concrete
+  - Sand
   layers:
   - Default
   - TransparentFX

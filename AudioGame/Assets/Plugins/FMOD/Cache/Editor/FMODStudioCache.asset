@@ -15,11 +15,39 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637875404750000000
+  lastModified: 637875430310000000
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 406720
   Exists: 1
+--- !u!114 &-4064610996234833201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/footsteps
+  Guid:
+    Data1: 1190261544
+    Data2: 1223669495
+    Data3: 1441202096
+    Data4: -238334561
+  Banks:
+  - {fileID: -9134042998542797002}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7004912149624472181}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,13 +63,14 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: 6906648927644371328}
   - {fileID: -9134042998542797002}
-  EditorEvents: []
+  EditorEvents:
+  - {fileID: -4064610996234833201}
   EditorParameters: []
   MasterBanks:
   - {fileID: -9134042998542797002}
   StringsBanks:
   - {fileID: 6906648927644371328}
-  cacheTime: 637875404750000000
+  cacheTime: 637875430310000000
   cacheVersion: 10
 --- !u!114 &6906648927644371328
 MonoBehaviour:
@@ -58,8 +87,32 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637875404750000000
+  lastModified: 637875430310000000
   FileSizes:
   - Name: Desktop
-    Value: 712
+    Value: 808
+  Exists: 1
+--- !u!114 &7004912149624472181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/footsteps/Terrian
+  m_EditorClassIdentifier: 
+  Name: Terrian
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 3602539154
+    data2: 1125086621
+  Type: 1
+  IsGlobal: 0
+  Labels: []
   Exists: 1
