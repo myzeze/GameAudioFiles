@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CharacterFootSteps : MonoBehaviour {
 
-    private enum CURRENT_TERRAIN { InsideMetal, OutsideMetal, Sand, Concrete };
+    private enum CURRENT_TERRAIN { InsideMetal, OutsideMetal, Concrete, Sand };
 
     [SerializeField]
     private CURRENT_TERRAIN currentTerrain;
@@ -21,7 +21,7 @@ public class CharacterFootSteps : MonoBehaviour {
         RaycastHit[] hit;
 
         // Originally set at 10.0f, but needs to be set to 0.25 for Robot scenario due to how the level is built.
-        hit = Physics.RaycastAll(transform.position, Vector3.down, 0.25f);
+        hit = Physics.RaycastAll(transform.position, Vector3.down, 10.0f);
 
         foreach (RaycastHit rayhit in hit)
         {
@@ -74,7 +74,7 @@ public class CharacterFootSteps : MonoBehaviour {
 
     private void PlayFootstep(int terrain)
     {
-        foosteps = FMODUnity.RuntimeManager.CreateInstance("event:/footsteps");
+        foosteps = FMODUnity.RuntimeManager.CreateInstance("event:/char/footsteps");
         foosteps.setParameterByName("Terrain", terrain);
         foosteps.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
         foosteps.start();

@@ -1309,6 +1309,42 @@ MonoBehaviour:
   condition: {fileID: 114000012976324630, guid: fd02464d008c790478d9826aba7c7847,
     type: 2}
   satisfied: 1
+--- !u!1 &757376834 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 188130, guid: 3651ed03b8d254a478d9747447d9f2f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1202301407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &757376836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757376834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1398654194
+      Data2: 1278665857
+      Data3: 934029208
+      Data4: -1046126383
+    Path: event:/Snore Guy/Snore
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 7
 --- !u!1 &773705718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1619,6 +1655,18 @@ PrefabInstance:
     - target: {fileID: 454474, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
       propertyPath: m_LocalPosition.z
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 477454, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 477454, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 477454, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.91
       objectReference: {fileID: 0}
     - target: {fileID: 2309628, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
       propertyPath: m_ReflectionProbeUsage
@@ -1958,6 +2006,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
+--- !u!1 &1202301408 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 168166, guid: 3651ed03b8d254a478d9747447d9f2f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1202301407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1202301409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202301408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
+  ListenerNumber: -1
 --- !u!114 &1209751514
 MonoBehaviour:
   m_ObjectHideFlags: 0

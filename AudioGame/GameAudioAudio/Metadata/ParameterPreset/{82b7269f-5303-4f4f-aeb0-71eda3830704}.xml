@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{82b7269f-5303-4f4f-aeb0-71eda3830704}">
 		<property name="name">
-			<value>Terrian</value>
+			<value>Terrain</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e63dd435-3b17-4f23-ac63-d5177fa922cb}</destination>
