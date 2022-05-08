@@ -954,6 +954,9 @@
 		<property name="position">
 			<value>9.5992048315863485</value>
 		</property>
+		<property name="triggerConditionMode">
+			<value>1</value>
+		</property>
 		<relationship name="timeline">
 			<destination>{bd1c7fe3-9332-4cd5-9196-b1d351c041e4}</destination>
 		</relationship>
@@ -964,7 +967,6 @@
 			<destination>{2a94be2c-3fcc-4d4d-b7ed-9bd48c1a016d}</destination>
 		</relationship>
 		<relationship name="triggerConditions">
-			<destination>{27800b94-706a-4c24-bbfd-36fee1afc6b2}</destination>
 			<destination>{95909e2a-c7c7-4b4a-adc4-6df6374a3c53}</destination>
 		</relationship>
 	</object>
@@ -1556,17 +1558,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3a8f86b5-7c93-4e9d-8428-f5ba8847d772}" />
-	<object class="ParameterCondition" id="{27800b94-706a-4c24-bbfd-36fee1afc6b2}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{3fe0040c-4395-4636-bfe5-9df78d1ef26a}</destination>
-		</relationship>
-	</object>
 	<object class="ParameterCondition" id="{95909e2a-c7c7-4b4a-adc4-6df6374a3c53}">
 		<property name="minimum">
 			<value>1</value>
