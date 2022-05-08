@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637876253870000000
+  lastModified: 637876441830000000
   FileSizes:
   - Name: Desktop
-    Value: 428512
+    Value: 22528
   Exists: 1
 --- !u!114 &-7956932682111735425
 MonoBehaviour:
@@ -47,7 +47,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1920
---- !u!114 &-4064610996234833201
+--- !u!114 &-7164048426711262099
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -56,25 +56,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/footsteps
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Back Ground Music/Scene
   m_EditorClassIdentifier: 
-  Path: event:/footsteps
-  Guid:
-    Data1: 1190261544
-    Data2: 1223669495
-    Data3: 1441202096
-    Data4: -238334561
-  Banks:
-  - {fileID: -9134042998542797002}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 7004912149624472181}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
+  Name: Scene
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3172338238
+    data2: 2410288586
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,19 +87,105 @@ MonoBehaviour:
   - {fileID: 6906648927644371328}
   - {fileID: -9134042998542797002}
   - {fileID: 7160691583274645894}
+  - {fileID: 3422218034258314040}
   EditorEvents:
-  - {fileID: -4064610996234833201}
   - {fileID: 8986812043328683589}
   - {fileID: 1277986775451634810}
   - {fileID: -7956932682111735425}
   - {fileID: 4323285241849025453}
+  - {fileID: 192442362057613363}
+  - {fileID: 1148051291610247790}
+  - {fileID: 475610900065027050}
   EditorParameters: []
   MasterBanks:
   - {fileID: -9134042998542797002}
   StringsBanks:
   - {fileID: 6906648927644371328}
-  cacheTime: 637876253870000000
+  cacheTime: 637876441840000000
   cacheVersion: 10
+--- !u!114 &192442362057613363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/hum/Air vent
+  m_EditorClassIdentifier: 
+  Path: event:/hum/Air vent
+  Guid:
+    Data1: -1782981184
+    Data2: 1141319167
+    Data3: 2070130328
+    Data4: -1235024880
+  Banks:
+  - {fileID: 7160691583274645894}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 21976
+--- !u!114 &475610900065027050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music/Back Ground Music
+  m_EditorClassIdentifier: 
+  Path: event:/music/Back Ground Music
+  Guid:
+    Data1: 1109911615
+    Data2: 1231945392
+    Data3: 2102109592
+    Data4: 1433842332
+  Banks:
+  - {fileID: 3422218034258314040}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5963644934719330803}
+  - {fileID: -7164048426711262099}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 158400
+--- !u!114 &1148051291610247790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/hum/fish sign
+  m_EditorClassIdentifier: 
+  Path: event:/hum/fish sign
+  Guid:
+    Data1: 1930869811
+    Data2: 1095019281
+    Data3: 404842382
+    Data4: -1552687345
+  Banks:
+  - {fileID: 7160691583274645894}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18500
 --- !u!114 &1277986775451634810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,6 +213,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 34000
+--- !u!114 &3422218034258314040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: GameAudioAudio/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 637876441840000000
+  FileSizes:
+  - Name: Desktop
+    Value: 2123872
+  Exists: 1
 --- !u!114 &4323285241849025453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,7 +259,31 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 495
+  Length: 245
+--- !u!114 &5963644934719330803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Back Ground Music/Item
+  m_EditorClassIdentifier: 
+  Name: Item
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 1667634663
+    data2: 2670837227
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &6906648927644371328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,34 +299,10 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637876253870000000
+  lastModified: 637876441830000000
   FileSizes:
   - Name: Desktop
-    Value: 1062
-  Exists: 1
---- !u!114 &7004912149624472181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/footsteps/Terrain
-  m_EditorClassIdentifier: 
-  Name: Terrain
-  StudioPath: 
-  Min: 0
-  Max: 4
-  Default: 0
-  ID:
-    data1: 3602539154
-    data2: 1125086621
-  Type: 1
-  IsGlobal: 0
-  Labels: []
+    Value: 1300
   Exists: 1
 --- !u!114 &7160691583274645894
 MonoBehaviour:
@@ -217,10 +319,10 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/sfx.bank
   Name: sfx
   StudioPath: bank:/sfx
-  lastModified: 637876253870000000
+  lastModified: 637876441830000000
   FileSizes:
   - Name: Desktop
-    Value: 1533472
+    Value: 2331200
   Exists: 1
 --- !u!114 &8339179739720370591
 MonoBehaviour:

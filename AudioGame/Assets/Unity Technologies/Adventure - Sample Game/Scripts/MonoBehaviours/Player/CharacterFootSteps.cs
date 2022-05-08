@@ -20,7 +20,7 @@ public class CharacterFootSteps : MonoBehaviour {
     {
         RaycastHit[] hit;
 
-        // Originally set at 10.0f, but needs to be set to 0.25 for Robot scenario due to how the level is built.
+        
         hit = Physics.RaycastAll(transform.position, Vector3.down, 10.0f);
 
         foreach (RaycastHit rayhit in hit)

@@ -766,7 +766,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010605808140, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1000010605808140, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
       propertyPath: m_TagString
@@ -1073,6 +1073,23 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1043656357}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1043656359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000010605808140, guid: 8902cc0c7910bcd4ab3ccacb67555809,
+    type: 3}
+  m_PrefabInstance: {fileID: 1043656357}
+  m_PrefabAsset: {fileID: 0}
+--- !u!154 &1043656360
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043656359}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 0}
+  m_EnableTreeColliders: 1
 --- !u!1001 &1094123811
 PrefabInstance:
   m_ObjectHideFlags: 0
