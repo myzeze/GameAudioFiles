@@ -15,11 +15,38 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637875570870000000
+  lastModified: 637876239900000000
   FileSizes:
   - Name: Desktop
     Value: 406720
   Exists: 1
+--- !u!114 &-7956932682111735425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Object Identifier/Identifier
+  m_EditorClassIdentifier: 
+  Path: event:/Object Identifier/Identifier
+  Guid:
+    Data1: -792979003
+    Data2: 1255785314
+    Data3: 255158950
+    Data4: -700756090
+  Banks:
+  - {fileID: 7160691583274645894}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1920
 --- !u!114 &-4064610996234833201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,12 +95,13 @@ MonoBehaviour:
   - {fileID: -4064610996234833201}
   - {fileID: 8986812043328683589}
   - {fileID: 1277986775451634810}
+  - {fileID: -7956932682111735425}
   EditorParameters: []
   MasterBanks:
   - {fileID: -9134042998542797002}
   StringsBanks:
   - {fileID: 6906648927644371328}
-  cacheTime: 637875570870000000
+  cacheTime: 637876239900000000
   cacheVersion: 10
 --- !u!114 &1277986775451634810
 MonoBehaviour:
@@ -117,10 +145,10 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637875570870000000
+  lastModified: 637876239900000000
   FileSizes:
   - Name: Desktop
-    Value: 956
+    Value: 1016
   Exists: 1
 --- !u!114 &7004912149624472181
 MonoBehaviour:
@@ -161,10 +189,10 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/sfx.bank
   Name: sfx
   StudioPath: bank:/sfx
-  lastModified: 637875570870000000
+  lastModified: 637876239900000000
   FileSizes:
   - Name: Desktop
-    Value: 1305856
+    Value: 1533472
   Exists: 1
 --- !u!114 &8339179739720370591
 MonoBehaviour:

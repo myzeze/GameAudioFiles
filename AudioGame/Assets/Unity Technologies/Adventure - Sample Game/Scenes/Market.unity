@@ -1343,8 +1343,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 7
+  OverrideMinDistance: 0.5
+  OverrideMaxDistance: 4
 --- !u!1 &773705718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,15 +1658,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 477454, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.05
+      value: -0.02
       objectReference: {fileID: 0}
     - target: {fileID: 477454, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.83
+      value: 0.94
       objectReference: {fileID: 0}
     - target: {fileID: 477454, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.91
+      value: 0.21
       objectReference: {fileID: 0}
     - target: {fileID: 2309628, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
       propertyPath: m_ReflectionProbeUsage
@@ -2019,7 +2019,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202301408}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
@@ -4019,6 +4019,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4167319822256324270, guid: ab5f05eb414b65f4f9c285f785c1dfad,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014075113472, guid: ab5f05eb414b65f4f9c285f785c1dfad, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -4281,6 +4286,36 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1202301407}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1924647222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924647221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -792979003
+      Data2: 1255785314
+      Data3: 255158950
+      Data4: -700756090
+    Path: event:/Object Identifier/Identifier
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 1.8
 --- !u!1001 &1936555036
 PrefabInstance:
   m_ObjectHideFlags: 0
