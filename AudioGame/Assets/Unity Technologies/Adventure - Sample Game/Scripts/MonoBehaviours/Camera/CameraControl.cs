@@ -13,6 +13,8 @@ public class CameraControl : MonoBehaviour
     {
         // If the camera shouldn't move, do nothing.
         if(!moveCamera)
+
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Camera/Stop");
             yield break;
 
         // Wait a single frame to ensure all other Starts are called first.
@@ -20,6 +22,7 @@ public class CameraControl : MonoBehaviour
 
         // Set the rotation of the camera to look at the player's position with a given offset.
         transform.rotation = Quaternion.LookRotation(playerPosition.position - transform.position + offset);
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Camera/Turn");
     }
 
 

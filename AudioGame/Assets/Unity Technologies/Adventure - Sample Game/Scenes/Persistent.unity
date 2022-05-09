@@ -614,7 +614,6 @@ GameObject:
   - component: {fileID: 1131390654}
   - component: {fileID: 1131390653}
   - component: {fileID: 1131390655}
-  - component: {fileID: 1131390656}
   m_Layer: 0
   m_Name: BackgroundMusic
   m_TagString: Untagged
@@ -760,24 +759,12 @@ MonoBehaviour:
   Preload: 0
   Params:
   - Name: Item
-    Value: 0
+    Value: 1
   - Name: Scene
     Value: 1
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!114 &1131390656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131390652}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a8a9e2073bbb41e599c8c555ff89c8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1206639138
 PrefabInstance:
   m_ObjectHideFlags: 0
