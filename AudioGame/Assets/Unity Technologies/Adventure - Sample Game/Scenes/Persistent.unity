@@ -759,9 +759,9 @@ MonoBehaviour:
   Preload: 0
   Params:
   - Name: Item
-    Value: 1
+    Value: 0
   - Name: Scene
-    Value: 1
+    Value: 0
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
