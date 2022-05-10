@@ -9,6 +9,8 @@ TagManager:
   - OutsideMetal
   - Concrete
   - Sand
+  - lazer gate
+  - coin
   layers:
   - Default
   - TransparentFX

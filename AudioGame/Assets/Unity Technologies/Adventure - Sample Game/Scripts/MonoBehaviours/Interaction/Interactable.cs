@@ -13,6 +13,12 @@ public class Interactable : MonoBehaviour
     public ConditionCollection[] conditionCollections = new ConditionCollection[0];
                                                             // All the different Conditions and relevant Reactions that can happen based on them.
     public ReactionCollection defaultReactionCollection;    // If none of the ConditionCollections are reacted to, this one is used.
+    
+
+
+
+
+
 
 
     // This is called when the player arrives at the interactionLocation.
@@ -21,6 +27,7 @@ public class Interactable : MonoBehaviour
         // Go through all the ConditionCollections...
         for (int i = 0; i < conditionCollections.Length; i++)
         {
+        
             // ... then check and potentially react to each.  If the reaction happens, exit the function.
             if (conditionCollections[i].CheckAndReact ())
                 return;

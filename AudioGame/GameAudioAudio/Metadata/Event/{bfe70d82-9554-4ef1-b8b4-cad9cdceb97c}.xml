@@ -134,7 +134,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{a33e9204-18c5-4847-886d-00119e95a934}">
 		<property name="volume">
-			<value>1.5</value>
+			<value>7</value>
 		</property>
 		<property name="name">
 			<value>Door Layer 1</value>
@@ -162,7 +162,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{7335b154-2ce1-4eb7-a6fd-0e9544d3638b}">
 		<property name="volume">
-			<value>5</value>
+			<value>10</value>
 		</property>
 		<property name="name">
 			<value>Door Layer 2</value>
@@ -190,7 +190,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{1626ef7c-240f-4c8e-9798-735c7d9cb695}">
 		<property name="volume">
-			<value>-1</value>
+			<value>5</value>
 		</property>
 		<property name="name">
 			<value>Door Layer 3</value>
@@ -224,7 +224,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{9bd4f1ea-4865-475d-9ef8-ff90caf911c4}">
 		<property name="volume">
-			<value>-16.5</value>
+			<value>-10</value>
 		</property>
 		<property name="name">
 			<value>Door Layer 4</value>
