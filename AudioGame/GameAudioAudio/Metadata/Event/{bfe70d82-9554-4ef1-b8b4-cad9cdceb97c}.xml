@@ -125,6 +125,9 @@
 		<property name="timelockedOffset">
 			<value>0.25</value>
 		</property>
+		<property name="pitch">
+			<value>-18.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{e2a52d44-9ff8-4ad2-a1db-0d704fd72ee8}</destination>
 		</relationship>
@@ -209,13 +212,19 @@
 		<property name="timelockedOffset">
 			<value>0.35000000000000009</value>
 		</property>
+		<property name="volume">
+			<value>10</value>
+		</property>
+		<property name="pitch">
+			<value>-24</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{d56e417d-570c-4065-ad2a-4da5dfce1455}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{9bd4f1ea-4865-475d-9ef8-ff90caf911c4}">
 		<property name="volume">
-			<value>-26.5</value>
+			<value>-16.5</value>
 		</property>
 		<property name="name">
 			<value>Door Layer 4</value>
@@ -232,6 +241,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{4f4fd8ca-aed2-4d99-b631-2b21b2e5bab8}">
 		<relationship name="effects">
+			<destination>{6b0e3890-80a0-49e1-9f62-2b2e43233a9d}</destination>
 			<destination>{17d6862d-1aba-492d-9c9e-f463e3733a12}</destination>
 			<destination>{1826ec00-5448-4367-89c8-db9bc06203a7}</destination>
 		</relationship>
@@ -262,6 +272,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{004879e1-0a18-41f9-bf4a-424b0ae77ee6}" />
+	<object class="SFXReverbEffect" id="{6b0e3890-80a0-49e1-9f62-2b2e43233a9d}" />
 	<object class="MixerBusFader" id="{17d6862d-1aba-492d-9c9e-f463e3733a12}" />
 	<object class="SpatialiserEffect" id="{1826ec00-5448-4367-89c8-db9bc06203a7}" />
 	<object class="MixerBusFader" id="{7d3e63ba-5f11-4f91-b328-e4b4e44e2a6b}" />
