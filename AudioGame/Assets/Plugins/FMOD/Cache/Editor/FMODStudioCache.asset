@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637878201270000000
+  lastModified: 637878758690000000
   FileSizes:
   - Name: Desktop
     Value: 117184
@@ -211,12 +211,13 @@ MonoBehaviour:
   - {fileID: 3699261376523830334}
   - {fileID: 4000230575536199946}
   - {fileID: -2761429160038122782}
+  - {fileID: 2485668663371614210}
   EditorParameters: []
   MasterBanks:
   - {fileID: -9134042998542797002}
   StringsBanks:
   - {fileID: 6906648927644371328}
-  cacheTime: 637878201270000000
+  cacheTime: 637878758690000000
   cacheVersion: 10
 --- !u!114 &192442362057613363
 MonoBehaviour:
@@ -352,6 +353,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &2485668663371614210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bird/Bird flaps
+  m_EditorClassIdentifier: 
+  Path: event:/Bird/Bird flaps
+  Guid:
+    Data1: 1863708067
+    Data2: 1186324972
+    Data3: -1807929932
+    Data4: -1152599
+  Banks:
+  - {fileID: 7160691583274645894}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
 --- !u!114 &3422218034258314040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -367,7 +395,7 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637878201270000000
+  lastModified: 637878758690000000
   FileSizes:
   - Name: Desktop
     Value: 2218304
@@ -493,10 +521,10 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637878201270000000
+  lastModified: 637878758690000000
   FileSizes:
   - Name: Desktop
-    Value: 1570
+    Value: 1616
   Exists: 1
 --- !u!114 &7160691583274645894
 MonoBehaviour:
@@ -513,10 +541,10 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/sfx.bank
   Name: sfx
   StudioPath: bank:/sfx
-  lastModified: 637878201270000000
+  lastModified: 637878758690000000
   FileSizes:
   - Name: Desktop
-    Value: 31503584
+    Value: 31644192
   Exists: 1
 --- !u!114 &8865650539760064544
 MonoBehaviour:
