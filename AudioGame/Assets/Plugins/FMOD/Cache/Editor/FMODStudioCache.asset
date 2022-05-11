@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637878758690000000
+  lastModified: 637879124370000000
   FileSizes:
   - Name: Desktop
     Value: 117184
@@ -212,12 +212,14 @@ MonoBehaviour:
   - {fileID: 4000230575536199946}
   - {fileID: -2761429160038122782}
   - {fileID: 2485668663371614210}
+  - {fileID: 4395835476108831072}
+  - {fileID: 4100634054607771849}
   EditorParameters: []
   MasterBanks:
   - {fileID: -9134042998542797002}
   StringsBanks:
   - {fileID: 6906648927644371328}
-  cacheTime: 637878758690000000
+  cacheTime: 637879124380000000
   cacheVersion: 10
 --- !u!114 &192442362057613363
 MonoBehaviour:
@@ -395,7 +397,7 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637878758690000000
+  lastModified: 637879124370000000
   FileSizes:
   - Name: Desktop
     Value: 2218304
@@ -455,6 +457,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 15202
+--- !u!114 &4100634054607771849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fruit Vendors/Shop Keeper
+  m_EditorClassIdentifier: 
+  Path: event:/Fruit Vendors/Shop Keeper
+  Guid:
+    Data1: 195934381
+    Data2: 1320962853
+    Data3: 292640655
+    Data4: 558053948
+  Banks:
+  - {fileID: 7160691583274645894}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2800
 --- !u!114 &4323285241849025453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -482,6 +511,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 245
+--- !u!114 &4395835476108831072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fruit Vendors/Customer
+  m_EditorClassIdentifier: 
+  Path: event:/Fruit Vendors/Customer
+  Guid:
+    Data1: -173343130
+    Data2: 1213345374
+    Data3: -1105090390
+    Data4: -1090076541
+  Banks:
+  - {fileID: 7160691583274645894}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
 --- !u!114 &5963644934719330803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -521,10 +577,10 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637878758690000000
+  lastModified: 637879124370000000
   FileSizes:
   - Name: Desktop
-    Value: 1616
+    Value: 1722
   Exists: 1
 --- !u!114 &7160691583274645894
 MonoBehaviour:
@@ -541,10 +597,10 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/sfx.bank
   Name: sfx
   StudioPath: bank:/sfx
-  lastModified: 637878758690000000
+  lastModified: 637879124380000000
   FileSizes:
   - Name: Desktop
-    Value: 31644192
+    Value: 32280832
   Exists: 1
 --- !u!114 &8865650539760064544
 MonoBehaviour:
