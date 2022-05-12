@@ -2665,6 +2665,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1202301407}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1202301441 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011526188438, guid: 3651ed03b8d254a478d9747447d9f2f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1202301407}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &1202301442
 Animator:
   serializedVersion: 3
@@ -2750,6 +2756,36 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 5
+--- !u!114 &1202301446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202301441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -263425416
+      Data2: 1185822006
+      Data3: -1568986990
+      Data4: -1258480299
+    Path: event:/Flies/Flies around bin
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &1209751514
 MonoBehaviour:
   m_ObjectHideFlags: 0

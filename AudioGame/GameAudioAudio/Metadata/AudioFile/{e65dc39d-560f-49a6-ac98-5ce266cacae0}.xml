@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e65dc39d-560f-49a6-ac98-5ce266cacae0}">
+		<property name="assetPath">
+			<value>others/476247__suncord-audiolab__flies-flying-insect.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ca625a4b-0064-4d17-a8b1-c801b8f2e910}</destination>
+		</relationship>
+	</object>
+</objects>
