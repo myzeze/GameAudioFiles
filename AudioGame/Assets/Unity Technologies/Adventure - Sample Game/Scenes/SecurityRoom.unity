@@ -138,9 +138,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 905901659}
-  audioClip: {fileID: 8300000, guid: 96b6650a22f2cb341a4bbb635f9af634, type: 3}
-  delay: 0
+  audioEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &25289150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,9 +157,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 905901658}
-  audioClip: {fileID: 8300000, guid: 0d494c2c0a97b4fdc8de4ad7f2e44f43, type: 3}
-  delay: 0
+  audioEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1001 &65161318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -309,9 +317,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 905901658}
-  audioClip: {fileID: 8300000, guid: 707d533b18a364142897701cc3b4027e, type: 3}
-  delay: 0
+  audioEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &227469776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -339,9 +351,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 905901659}
-  audioClip: {fileID: 8300000, guid: ebdaadc1993914f48991efbeda5ed08e, type: 3}
-  delay: 0
+  audioEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &294159636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,9 +400,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 905901659}
-  audioClip: {fileID: 8300000, guid: 28b6ecbb67d75a743be188695bc54261, type: 3}
-  delay: 0.5
+  audioEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &669618034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -415,9 +435,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 905901658}
-  audioClip: {fileID: 8300000, guid: 20b36408ef0bfce45b7d4010cc76e7de, type: 3}
-  delay: 0
+  audioEvent:
+    Guid:
+      Data1: 838093189
+      Data2: 1290946060
+      Data3: 2067836350
+      Data4: 1985085504
+    Path: event:/Access Denied/Buzz
 --- !u!114 &693356648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -445,9 +469,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 905901658}
-  audioClip: {fileID: 8300000, guid: d18f058921ed94b17847871c11f8c9da, type: 3}
-  delay: 0
+  audioEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &795348259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -490,9 +518,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 905901658}
-  audioClip: {fileID: 8300000, guid: d786774c25f284b79bcda64a1571c979, type: 3}
-  delay: 0
+  audioEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1001 &904848606
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -643,18 +675,6 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 19e9160e69a211246b8d3e4de36e96ec, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0036c73aed31ec14fbbf45853c79fc14, type: 3}
---- !u!82 &905901658 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 8277418, guid: 0036c73aed31ec14fbbf45853c79fc14,
-    type: 3}
-  m_PrefabInstance: {fileID: 905901657}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &905901659 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 8299186, guid: 0036c73aed31ec14fbbf45853c79fc14,
-    type: 3}
-  m_PrefabInstance: {fileID: 905901657}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &921382151
 MonoBehaviour:
   m_ObjectHideFlags: 0
