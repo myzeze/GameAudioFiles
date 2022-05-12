@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{04b1a2ec-1bd9-42be-bca6-8cc97e28a3ec}">
+		<property name="assetPath">
+			<value>others/187928__castle81__parrots.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>7.2887981859410429</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ca625a4b-0064-4d17-a8b1-c801b8f2e910}</destination>
+		</relationship>
+	</object>
+</objects>
