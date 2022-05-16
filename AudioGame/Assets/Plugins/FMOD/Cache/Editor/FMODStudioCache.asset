@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637883035950000000
+  lastModified: 637883091810000000
   FileSizes:
   - Name: Desktop
     Value: 117184
@@ -47,6 +47,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1920
+--- !u!114 &-7795440204282393685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/hum/Coffee sign on
+  m_EditorClassIdentifier: 
+  Path: event:/hum/Coffee sign on
+  Guid:
+    Data1: -563694764
+    Data2: 1083670167
+    Data3: -1955003240
+    Data4: -1135072144
+  Banks:
+  - {fileID: 7160691583274645894}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 83
 --- !u!114 &-7164048426711262099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -299,12 +326,13 @@ MonoBehaviour:
   - {fileID: -2095214761662919239}
   - {fileID: -1927644076836761553}
   - {fileID: -4504009842376356704}
+  - {fileID: -7795440204282393685}
   EditorParameters: []
   MasterBanks:
   - {fileID: -9134042998542797002}
   StringsBanks:
   - {fileID: 6906648927644371328}
-  cacheTime: 637883035960000000
+  cacheTime: 637883091820000000
   cacheVersion: 10
 --- !u!114 &192442362057613363
 MonoBehaviour:
@@ -482,7 +510,7 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637883035950000000
+  lastModified: 637883091810000000
   FileSizes:
   - Name: Desktop
     Value: 2218304
@@ -689,10 +717,10 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637883035950000000
+  lastModified: 637883091810000000
   FileSizes:
   - Name: Desktop
-    Value: 1940
+    Value: 1984
   Exists: 1
 --- !u!114 &7160691583274645894
 MonoBehaviour:
@@ -709,10 +737,10 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/sfx.bank
   Name: sfx
   StudioPath: bank:/sfx
-  lastModified: 637883035960000000
+  lastModified: 637883091820000000
   FileSizes:
   - Name: Desktop
-    Value: 33149600
+    Value: 33805024
   Exists: 1
 --- !u!114 &8865650539760064544
 MonoBehaviour:
