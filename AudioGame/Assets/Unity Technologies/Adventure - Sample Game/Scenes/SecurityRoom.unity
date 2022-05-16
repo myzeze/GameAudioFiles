@@ -140,11 +140,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -955564766
+      Data2: 1141339758
+      Data3: -981795921
+      Data4: 1151131690
+    Path: event:/Gate Open/Success sound
 --- !u!114 &25289150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,11 +402,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1683194026
+      Data2: 1290801489
+      Data3: 571548344
+      Data4: 421400397
+    Path: event:/Gate Open/Opening
 --- !u!114 &669618034
 MonoBehaviour:
   m_ObjectHideFlags: 0

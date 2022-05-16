@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637882151160000000
+  lastModified: 637883035950000000
   FileSizes:
   - Name: Desktop
     Value: 117184
@@ -98,6 +98,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 368000
+--- !u!114 &-4504009842376356704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gate Open/Opening
+  m_EditorClassIdentifier: 
+  Path: event:/Gate Open/Opening
+  Guid:
+    Data1: 1683194026
+    Data2: 1290801489
+    Data3: 571548344
+    Data4: 421400397
+  Banks:
+  - {fileID: 7160691583274645894}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 750
 --- !u!114 &-3382090764259222637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,6 +207,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 367
+--- !u!114 &-1927644076836761553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gate Open/Success sound
+  m_EditorClassIdentifier: 
+  Path: event:/Gate Open/Success sound
+  Guid:
+    Data1: -955564766
+    Data2: 1141339758
+    Data3: -981795921
+    Data4: 1151131690
+  Banks:
+  - {fileID: 7160691583274645894}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
 --- !u!114 &-644337871537202240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,12 +297,14 @@ MonoBehaviour:
   - {fileID: 4100634054607771849}
   - {fileID: 6007457470219014600}
   - {fileID: -2095214761662919239}
+  - {fileID: -1927644076836761553}
+  - {fileID: -4504009842376356704}
   EditorParameters: []
   MasterBanks:
   - {fileID: -9134042998542797002}
   StringsBanks:
   - {fileID: 6906648927644371328}
-  cacheTime: 637882151170000000
+  cacheTime: 637883035960000000
   cacheVersion: 10
 --- !u!114 &192442362057613363
 MonoBehaviour:
@@ -426,7 +482,7 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637882151160000000
+  lastModified: 637883035950000000
   FileSizes:
   - Name: Desktop
     Value: 2218304
@@ -633,10 +689,10 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637882151160000000
+  lastModified: 637883035950000000
   FileSizes:
   - Name: Desktop
-    Value: 1836
+    Value: 1940
   Exists: 1
 --- !u!114 &7160691583274645894
 MonoBehaviour:
@@ -653,10 +709,10 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/sfx.bank
   Name: sfx
   StudioPath: bank:/sfx
-  lastModified: 637882151170000000
+  lastModified: 637883035960000000
   FileSizes:
   - Name: Desktop
-    Value: 33077952
+    Value: 33149600
   Exists: 1
 --- !u!114 &8865650539760064544
 MonoBehaviour:
