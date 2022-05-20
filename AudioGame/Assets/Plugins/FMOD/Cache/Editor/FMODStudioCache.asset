@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637883091810000000
+  lastModified: 637886523210000000
   FileSizes:
   - Name: Desktop
     Value: 117184
@@ -98,6 +98,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-6923150749217077927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Security Guard/Who are you
+  m_EditorClassIdentifier: 
+  Path: event:/Security Guard/Who are you
+  Guid:
+    Data1: -1965377381
+    Data2: 1110220497
+    Data3: 1752628414
+    Data4: -902146725
+  Banks:
+  - {fileID: 7160691583274645894}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
 --- !u!114 &-5712739673337407407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,6 +179,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 750
+--- !u!114 &-3838919909463084631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Security Guard/Get lost
+  m_EditorClassIdentifier: 
+  Path: event:/Security Guard/Get lost
+  Guid:
+    Data1: -1686532563
+    Data2: 1263248456
+    Data3: 1543663539
+    Data4: 1139041494
+  Banks:
+  - {fileID: 7160691583274645894}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1875
 --- !u!114 &-3382090764259222637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,6 +231,33 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: 1950130823865171137}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2840137399239511061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Zara/Oh a coin
+  m_EditorClassIdentifier: 
+  Path: event:/Zara/Oh a coin
+  Guid:
+    Data1: 1924927806
+    Data2: 1085850238
+    Data3: 1575300523
+    Data4: 1362072254
+  Banks:
+  - {fileID: 7160691583274645894}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -327,12 +408,16 @@ MonoBehaviour:
   - {fileID: -1927644076836761553}
   - {fileID: -4504009842376356704}
   - {fileID: -7795440204282393685}
+  - {fileID: -3838919909463084631}
+  - {fileID: -2840137399239511061}
+  - {fileID: 8343949862909489411}
+  - {fileID: -6923150749217077927}
   EditorParameters: []
   MasterBanks:
   - {fileID: -9134042998542797002}
   StringsBanks:
   - {fileID: 6906648927644371328}
-  cacheTime: 637883091820000000
+  cacheTime: 637886523220000000
   cacheVersion: 10
 --- !u!114 &192442362057613363
 MonoBehaviour:
@@ -510,7 +595,7 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637883091810000000
+  lastModified: 637886523210000000
   FileSizes:
   - Name: Desktop
     Value: 2218304
@@ -717,10 +802,10 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637883091810000000
+  lastModified: 637886523210000000
   FileSizes:
   - Name: Desktop
-    Value: 1984
+    Value: 2200
   Exists: 1
 --- !u!114 &7160691583274645894
 MonoBehaviour:
@@ -737,11 +822,38 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/sfx.bank
   Name: sfx
   StudioPath: bank:/sfx
-  lastModified: 637883091820000000
+  lastModified: 637886523220000000
   FileSizes:
   - Name: Desktop
-    Value: 33805024
+    Value: 33888704
   Exists: 1
+--- !u!114 &8343949862909489411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Security Guard/Go through
+  m_EditorClassIdentifier: 
+  Path: event:/Security Guard/Go through
+  Guid:
+    Data1: 2072010371
+    Data2: 1229193907
+    Data3: 145242514
+    Data4: -129001013
+  Banks:
+  - {fileID: 7160691583274645894}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1875
 --- !u!114 &8865650539760064544
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -319,11 +319,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1965377381
+      Data2: 1110220497
+      Data3: 1752628414
+      Data4: -902146725
+    Path: event:/Security Guard/Who are you
 --- !u!114 &227469776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,7 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Hey Frank, you shouldn't go through without the boss's coffee.
+  message: Who are you?
   textColor: {r: 0, g: 1, b: 1, a: 1}
   delay: 0
 --- !u!114 &503792339
@@ -471,11 +471,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1686532563
+      Data2: 1263248456
+      Data3: 1543663539
+      Data4: 1139041494
+    Path: event:/Security Guard/Get lost
 --- !u!114 &795348259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -520,11 +520,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 2072010371
+      Data2: 1229193907
+      Data3: 145242514
+      Data4: -129001013
+    Path: event:/Security Guard/Go through
 --- !u!1001 &904848606
 PrefabInstance:
   m_ObjectHideFlags: 0
