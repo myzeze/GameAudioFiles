@@ -1535,11 +1535,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 617541416
+      Data2: 1159149027
+      Data3: -1597276246
+      Data4: 2087642813
+    Path: event:/Coffee man/Fresh Coffee
 --- !u!114 &964840749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3802,11 +3802,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1840618837
+      Data2: 1100236811
+      Data3: -655481714
+      Data4: 1743492938
+    Path: event:/Coffee man/Heres your coffee
 --- !u!1 &1296787228
 GameObject:
   m_ObjectHideFlags: 0
