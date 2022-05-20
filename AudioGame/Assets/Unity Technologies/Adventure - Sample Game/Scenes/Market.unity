@@ -717,11 +717,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1532789633
+      Data2: 1288082605
+      Data3: -63350868
+      Data4: -1340070355
+    Path: event:/Zara/Bird glass
 --- !u!1 &212098273 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000010835162296, guid: 3651ed03b8d254a478d9747447d9f2f6,
@@ -1117,11 +1117,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 919676395
+      Data2: 1215716446
+      Data3: -1204961115
+      Data4: 1398772274
+    Path: event:/Zara/I doubt this
 --- !u!114 &588962459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1353,11 +1353,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1924927806
+      Data2: 1085850238
+      Data3: 1575300523
+      Data4: 1362072254
+    Path: event:/Zara/Oh a coin
 --- !u!114 &749286455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5033,7 +5033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: I don't want another fish.
+  message: I don't want any more fish!
   textColor: {r: 1, g: 1, b: 1, a: 1}
   delay: 0
 --- !u!114 &1813401409
@@ -5326,11 +5326,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1455506592
+      Data2: 1151725883
+      Data3: 758772611
+      Data4: 892875584
+    Path: event:/Zara/No more fish
 --- !u!114 &1970471229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5867,11 +5867,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 405172740
+      Data2: 1207724765
+      Data3: -1821873509
+      Data4: -631267442
+    Path: event:/Zara/Glasses
 --- !u!114 &2101764231
 MonoBehaviour:
   m_ObjectHideFlags: 0

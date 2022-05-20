@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637886523210000000
+  lastModified: 637886539890000000
   FileSizes:
   - Name: Desktop
     Value: 117184
@@ -152,6 +152,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 368000
+--- !u!114 &-5335468356813769171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Zara/I doubt this
+  m_EditorClassIdentifier: 
+  Path: event:/Zara/I doubt this
+  Guid:
+    Data1: 919676395
+    Data2: 1215716446
+    Data3: -1204961115
+    Data4: 1398772274
+  Banks:
+  - {fileID: 7160691583274645894}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1156
 --- !u!114 &-4504009842376356704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,7 +287,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1187
 --- !u!114 &-2761429160038122782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -412,12 +439,16 @@ MonoBehaviour:
   - {fileID: -2840137399239511061}
   - {fileID: 8343949862909489411}
   - {fileID: -6923150749217077927}
+  - {fileID: 429605951835820210}
+  - {fileID: 2849055805258160847}
+  - {fileID: 258335235600162737}
+  - {fileID: -5335468356813769171}
   EditorParameters: []
   MasterBanks:
   - {fileID: -9134042998542797002}
   StringsBanks:
   - {fileID: 6906648927644371328}
-  cacheTime: 637886523220000000
+  cacheTime: 637886539900000000
   cacheVersion: 10
 --- !u!114 &192442362057613363
 MonoBehaviour:
@@ -446,6 +477,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 21976
+--- !u!114 &258335235600162737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Zara/No more fish
+  m_EditorClassIdentifier: 
+  Path: event:/Zara/No more fish
+  Guid:
+    Data1: 1455506592
+    Data2: 1151725883
+    Data3: 758772611
+    Data4: 892875584
+  Banks:
+  - {fileID: 7160691583274645894}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
+--- !u!114 &429605951835820210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Zara/Glasses
+  m_EditorClassIdentifier: 
+  Path: event:/Zara/Glasses
+  Guid:
+    Data1: 405172740
+    Data2: 1207724765
+    Data3: -1821873509
+    Data4: -631267442
+  Banks:
+  - {fileID: 7160691583274645894}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1625
 --- !u!114 &475610900065027050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -580,6 +665,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3625
+--- !u!114 &2849055805258160847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Zara/Bird glass
+  m_EditorClassIdentifier: 
+  Path: event:/Zara/Bird glass
+  Guid:
+    Data1: -1532789633
+    Data2: 1288082605
+    Data3: -63350868
+    Data4: -1340070355
+  Banks:
+  - {fileID: 7160691583274645894}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4729
 --- !u!114 &3422218034258314040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -595,7 +707,7 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637886523210000000
+  lastModified: 637886539890000000
   FileSizes:
   - Name: Desktop
     Value: 2218304
@@ -802,10 +914,10 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637886523210000000
+  lastModified: 637886539890000000
   FileSizes:
   - Name: Desktop
-    Value: 2200
+    Value: 2378
   Exists: 1
 --- !u!114 &7160691583274645894
 MonoBehaviour:
@@ -822,10 +934,10 @@ MonoBehaviour:
   Path: GameAudioAudio/Build/Desktop/sfx.bank
   Name: sfx
   StudioPath: bank:/sfx
-  lastModified: 637886523220000000
+  lastModified: 637886539900000000
   FileSizes:
   - Name: Desktop
-    Value: 33888704
+    Value: 33959040
   Exists: 1
 --- !u!114 &8343949862909489411
 MonoBehaviour:
