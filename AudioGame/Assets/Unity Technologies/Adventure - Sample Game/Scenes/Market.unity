@@ -170,11 +170,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 957429721
+      Data2: 1164052537
+      Data3: -219704419
+      Data4: 439434482
+    Path: event:/Item Collection/Item collection noise
 --- !u!114 &70116245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -784,11 +784,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 957429721
+      Data2: 1164052537
+      Data3: -219704419
+      Data4: 439434482
+    Path: event:/Item Collection/Item collection noise
 --- !u!114 &260797430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5000,11 +5000,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 957429721
+      Data2: 1164052537
+      Data3: -219704419
+      Data4: 439434482
+    Path: event:/Item Collection/Item collection noise
 --- !u!114 &1743308727
 MonoBehaviour:
   m_ObjectHideFlags: 0
