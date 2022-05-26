@@ -1969,11 +1969,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000014204061096, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
       propertyPath: m_Layer
-      value: 11
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1000014204061096, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
       propertyPath: m_TagString
-      value: Sand
+      value: OutsideMetal
       objectReference: {fileID: 0}
     - target: {fileID: 1000014223758154, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
       propertyPath: m_IsActive
@@ -2151,10 +2151,7 @@ PrefabInstance:
       propertyPath: m_Dering
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1979910436513561421, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
-    - {fileID: 3740995477148003306, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
-    - {fileID: 3996394988839650828, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
 --- !u!1 &1202301408 stripped
 GameObject:
@@ -2382,7 +2379,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202301420}
   m_Material: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_TerrainData: {fileID: 0}
   m_EnableTreeColliders: 1
 --- !u!154 &1202301424
@@ -2393,7 +2390,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202301421}
   m_Material: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_TerrainData: {fileID: 0}
   m_EnableTreeColliders: 1
 --- !u!154 &1202301425
@@ -2404,7 +2401,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202301422}
   m_Material: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_TerrainData: {fileID: 0}
   m_EnableTreeColliders: 1
 --- !u!1 &1202301426 stripped

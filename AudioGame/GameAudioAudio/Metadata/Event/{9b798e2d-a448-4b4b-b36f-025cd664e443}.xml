@@ -92,6 +92,9 @@
 		<property name="length">
 			<value>1.875</value>
 		</property>
+		<property name="playlistMode">
+			<value>3</value>
+		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{35eccd78-1f04-458c-a8b3-f45a3af18d99}</destination>
 		</relationship>
